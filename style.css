@@ -8,50 +8,41 @@ body {
     background-color: hsl(212, 45%, 89%);
 }
 .container {
-    width: 30%;
-    margin: auto;
+    display: grid;
+    width: 320px;
+    height: 500px;
+    margin: 60px auto;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
 }
-.sub-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 20px;
-}
-.qr-image {
-    width: 90%;
-}
-.qr-image img{
+img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 30px;
+    width: 320px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 30px;
 }
-.qr-text{
-    width: 80%;
+h1{
+    display: flex;
     text-align: center;
-}
-.qr-text h2 {
-    text-wrap: wrap;
+    font-size: 22px;
+    padding: 5px 20px 0px 20px;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    line-height: 35px;
-    margin-bottom: 15px;
-    font-size: 25px;
+    line-height: 25px;
+    height: 60px;
 }
-.qr-text p {
+p {
+    text-align: center;
     color: hsl(220, 15%, 55%);
     font-weight: 500;
-    font-size: 17px;
-    margin-bottom: 50px;
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 30px;
 }
 @media screen and (max-width: 375px){
     .container {
-        width: 80%;
+        width: 320px;
+        height: 500px;
         margin-top: 70px;
     }
     .qr-text{
