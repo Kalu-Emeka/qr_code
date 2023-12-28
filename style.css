@@ -8,6 +8,7 @@ body {
     background-color: hsl(212, 45%, 89%);
 }
 .container {
+    display: grid;
     width: 320px;
     height: 500px;
     margin: 60px auto;
