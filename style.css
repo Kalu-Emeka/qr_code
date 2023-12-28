@@ -8,7 +8,7 @@ body {
     background-color: hsl(212, 45%, 89%);
 }
 .container {
-    width: 40%;
+    width: 30%;
     margin: auto;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
@@ -21,13 +21,13 @@ body {
     padding-top: 20px;
 }
 .qr-image {
-    width: 100%;
+    width: 90%;
 }
 .qr-image img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
     border-radius: 10px;
     margin-bottom: 30px;
 }
@@ -40,7 +40,7 @@ body {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
     line-height: 35px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-size: 25px;
 }
 .qr-text p {
